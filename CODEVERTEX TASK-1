@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder books.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<style>
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.one{
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 1500px;
+    opacity: 0.5;
+}
+
+.head{
+    position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 30px;
+  color: #e72727;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(218, 22, 22);
+}
+.three,.four{
+    background-color: rgba(244, 241, 178, 0.726);
+    width: 300px;
+    border: 5px solid rgb(236, 216, 67);
+    padding: 50px;
+    margin: 20px;
+    position: absolute;
+    top: 65px;
+    right: 10px;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  font-style: unset;
+  animation: mymove 5s initial;
+}
+.img{
+    opacity: 0.8;
+    height: 300px;
+    width: 320px;
+}
+.four{
+    position: absolute;
+    top: 400px;
+    left: 5px;
+    border: 5px solid rgb(14, 229, 93);
+    background-color: rgba(146, 208, 172, 0.721);
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+    width: fit-content;
+}
+.too{
+    display: flex;
+    flex-wrap: no wrap;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+.btn{
+    border: 1px solid rgb(54, 145, 54);
+    background-color: rgb(177, 233, 94);
+    padding: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    cursor: pointer;
+}
+.btn:hover{
+    font-size: 25px;
+    background-color: rgb(80, 146, 124);
+}
+.btn:active{
+    font-size: 18px;
+    opacity: 0.8;
+}
+.ii{
+    height: 200px;
+    width: 155px;
+}
+.partner{
+    border: 1px solid black;
+    background-color: black;
+    position: absolute;
+    top: 690px;
+}
+.h{
+    padding: 10px;
+    font-size: 20px;
+}
+.hh{
+    font-size: 45px;
+    color: #dee1e1;
+    position: absolute;
+    top: 200px;
+    -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+.back{
+    opacity: 0.7;
+}
+.r{
+    padding: 10px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 8px;
+  right: 16px;
+}
+@keyframes mymove {
+    0%   {left: 0px;}
+    25%  {left: 200px;}
+}
+</style>
+</head>
+<body>
+            <img src="book.jpg" alt="" class="one">
+        <div class="head">
+            <h1>TAKE THE FIRST STEP TO </h1><h1>THE BIZZARE WORLD OF BOOKS</h1>
+        </div>
+        <div class="three">
+            <img src="book2.jpg" alt="" class=" img">
+            <h3>The magic is only in what books say, how they stitched the patches of the universe together into one garment for us.</h3>
+        </div>
+        <div class="four" >
+            <h2 class="too">Unleash the journey of dreams,</h2><h2 class="too">fantasies and ideas </h2>
+            E-mail:-<input type="email" name="email" class="h" required placeholder="ram@jmail.com"><a href="thanks.html">&nbsp;&nbsp;<button class="btn">Start</button></a>
+        </div>
+        <div class="partner">
+            <img src="new.jpg" alt="" class="ii">&nbsp;&nbsp;
+            <img src="new1.jpg" alt="" class="ii">&nbsp;&nbsp;
+            <img src="new6.jpg" alt="" class="ii">&nbsp;&nbsp;
+            <img src="new3.jpg" alt="" class="ii">&nbsp;&nbsp;
+            <img src="new4.webp" alt="" class="ii">&nbsp;&nbsp;
+            <img src="new5.jpg" alt="" class="ii">&nbsp;&nbsp;
+            <img src="new7.jpg" alt="" class="ii">&nbsp;&nbsp;
+            <img src="new8.jpg" alt="" class="ii">&nbsp;&nbsp;
+            <img src="new9.jpg" alt="" class="ii">&nbsp;&nbsp;
+        </div>
+</body>
+</html>
+//thanks.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder books.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="b">
+    <img src="book5.jpg" alt="" height="800px" width="1600px" class="back">
+    <marquee behavior="alternate" direction="left" class="hh"><h1 >Thanks for your response</h1><h1>You'll be updated shortly.</h1></marquee>
+    <a href="task1_landing_page.html"><button class="r">REFRESH</button></a>
+</body>
+</html>
