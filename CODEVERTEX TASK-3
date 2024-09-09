@@ -1,0 +1,121 @@
+//calculator.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator.com</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: grey;
+            display: grid;
+            height: 100vh;
+            place-items: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 45px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: brown;
+        }
+        .main{
+            position: absolute;
+            background-color: rgb(42, 39, 39);
+            height: 480px;
+            width: 470px;
+            border: 20px solid rgba(17, 17, 17, 0.875);
+            border-radius: 10%;
+
+        }
+        .main input[type=text]{
+            font-size: 30px;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            width: 88%;
+            height: 100px;
+            border: 5px solid black;
+            border-radius: 5%;
+            padding: 3px 6px;
+            display: flex;
+            outline: none;
+            position: relative;
+            top: 5px;
+            right: -10px;
+            text-align: right;
+        }
+        .btn input[type="button"]{
+            height: 55px;
+            width: 95px;
+            position: relative;
+            top: 20px;
+            right: -20px;
+            padding: 10px;
+            margin: 5px;
+            font-size: 20px;
+            background-color: grey;
+            box-shadow: 12px
+        }
+        .btn input[type="button"]:hover{
+            background-color: rgb(46, 44, 44);
+            color: white
+            }
+            .btn input[type="button"]:active{
+                font-size: 15px;
+            }
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="main">
+        <input type="text" value="" placeholder="0" id="res">
+            <div class="btn">
+                <input type="button" value="C" onclick="Clear()">
+                <input type="button" value="%" onclick="solve('%')">
+                <input type="button" value="<-" onclick="back('<-')">
+                <input type="button" value="/" onclick="solve('/')">
+                <br>
+                <input type="button" value="7" onclick="solve('7')">
+                <input type="button" value="8" onclick="solve('8')">
+                <input type="button" value="9" onclick="solve('9')">
+                <input type="button" value="*" onclick="solve('*')">
+                <br>
+                <input type="button" value="4" onclick="solve('4')">
+                <input type="button" value="5" onclick="solve('5')">
+                <input type="button" value="6" onclick="solve('6')">
+                <input type="button" value="-" onclick="solve('-')">
+                <br>
+                <input type="button" value="1" onclick="solve('1')">
+                <input type="button" value="2" onclick="solve('2')">
+                <input type="button" value="3" onclick="solve('3')">
+                <input type="button" value="+" onclick="solve('+')">
+                <br>
+                <input type="button" value="00" onclick="solve('00')">
+                <input type="button" value="0" onclick="solve('0')">
+                <input type="button" value="." onclick="solve('.')">
+                <input type="button" value="=" onclick="result(' ')">
+            </div>
+    </div>
+    <script>
+        function solve(val){
+            var v=document.getElementById("res");
+            v.value+=val;
+        }
+        function result(){
+            var val=document.getElementById("res").value;
+            var val2=eval(val);
+            document.getElementById("res").value=val2;
+        }
+
+        function Clear(){
+            var inp=document.getElementById('res');
+            inp.value='';
+        }
+        function back(){
+            e=document.getElementById("res").value;
+            e=e.slice(0,-1);
+        }
+    </script>
+</body>
+</html>
