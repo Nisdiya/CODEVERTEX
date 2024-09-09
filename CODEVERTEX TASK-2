@@ -1,0 +1,418 @@
+//home page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diya Trivedi</title>
+    <style>
+     body{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    border: 1px solid black;
+    background-color: rgba(239, 21, 170, 0.925);
+    height: 780px;
+    width: 510px;
+}
+.img,.box{
+    position: absolute;
+    top: 50px;
+}
+header{
+    position: absolute;
+    top: 200px;
+    right: 170px;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+nav{
+   margin: 15px;
+   text-align: center;
+}
+.b{
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover{
+    cursor: pointer;
+    background-color: rgb(125, 62, 62);
+    color: black;
+}
+a:active{
+    font-size: 20px;
+}
+.n{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    background-color: black;
+    justify-content: center;
+}
+h3{
+    font-size: 30px;
+    position: absolute;
+    top: 230px;
+    right: 0px;
+    color: white;
+    display: inline-block;
+}
+button{
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: 400px;
+    right: 150px;
+    background-color: rgb(140, 88, 182);
+}
+button:active{
+    font-size: 18px;
+}
+.x{
+    position: absolute;
+    top: -140px;
+    right: -170px;
+    height: 780px;
+    width: 1000px;
+}
+.h{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+p,ul{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 0px;
+}
+.p,ul{
+    position: absolute;
+    float: left;
+    left:0px;
+    text-align: justify;
+    width: 1100px;
+}
+.i{
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    height: 650px;
+}
+.one{
+    position: absolute;
+    top: 30px;
+}
+
+ul{
+    position: absolute;
+    float: left;
+    left: 10px;
+    top: 60px;
+    justify-content: center;
+}
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="n">
+        <nav>
+            <a href="portfolio.html">HOME</a>&nbsp;&nbsp;
+            <a href="about.html">ABOUT ME</a>&nbsp;&nbsp;
+            <a href="skills.html">MY SKILLS</a>&nbsp;&nbsp;
+            <a href="project.html">PROJECTS</a>&nbsp;&nbsp;
+            <a href="contact.html">CONTACTS</a>&nbsp;&nbsp;
+    
+        </nav>
+    </div>
+    <div class="box">
+        <img src="me.png" alt="" height="780px" width="500px">
+    </div>
+    <header>
+        <img src="pa.jpg" alt=""  class="x">
+        <h1 class="b">DIYA TRIVEDI</h1>
+        <h3>Future Front-End Developer.</h3>
+        <button><i class="fa fa-download"></i>&nbsp;Download Resume here</button>
+    </header>
+
+</body>
+</html>
+//About page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diya Trivedi</title>about.html
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        button{
+            padding: 10px;
+            font-size: 20px;
+            background-color: white;
+            position: absolute;
+            float: right;
+            right: 80px;
+            top: 700px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img src="p.avif" alt="" height="800px" width="1600px" class="ii">
+    <img src="me2.png" alt="" class="i">
+    <div class="one">
+        <h1 class="h">ABOUT ME </h1>
+    <hr size="4px">
+    <div class="p">
+        <p>Hello,  I  am  DIYA  TRIVEDI .
+            <ul>
+                <li>An  ambitious  Front-End  Developer ,  having  passion  for  my  work</li>
+                <li>I  am  currently  pursuing  BCA  at  Chitkara  University ,  Punjab </li>
+                <li>Have  a  good  knowledge  of  different  languages</li>
+                <li>It  is  my  second  year  of  BCA and  i  have  got  10  CGPA  straight  for  both  semesters</li>
+                Apart  from  being  good  at  studies:-
+                <li>I  also  carry  interest  of  Public  Speaking  earned  rewards  in  that</li>
+                <li>I  am  an  anchoring  team  member  at  my  college  club</li>
+                <li>Apart  from  that a  quick  learner  and  a  hardworker</li>
+                <li>And  the  list  is  still  going  on.......</li>
+            </ul> 
+        </p>
+    </div>
+    </div>
+    <a href="portfolio.html"><button>BACK</button></a>
+</body>
+</html>
+//skills.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diya Trivedi</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            color: violet;
+            font-size: 60px;
+            text-align: center;
+            position: absolute;
+            top: 50px;
+        }
+        ul{
+            position: absolute;
+            top: 120px;
+            color: white;
+            font-size: 30px;
+        }
+        h2{
+            color: forestgreen;
+        }
+        #i{
+            position: absolute;
+            float: right;
+            right: 80px;
+            top: 200px;
+            height: 400px;
+            width: 450px;
+            border: 1px solid black;
+            border-radius: 30%;
+        }
+        button{
+            padding: 10px;
+            font-size: 20px;
+            background-color: white;
+            position: absolute;
+            float: right;
+            right: 80px;
+            top: 700px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img src="p.avif" alt="" height="800px" width="1600px" class="ii">
+    <h1>AREA OF EXPERTISE</h1>
+    <hr size="4px">
+    <ul type="square">
+        <h2>KNOWS:-</h2>
+        <li>C</li>
+        <li>C++</li>
+        <li>HTML 5</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>PUBLIC SPEAKING</li>
+        <h2>STILL LEARNING</h2>
+        <li>DSA</li>
+        <li>NODE JS</li>
+        <li>REACT JS</li>
+        </ul>
+        <img src="ii.png" alt="" id="i">
+        <a href="portfolio.html"><button>BACK</button></a>
+</body>
+</html>
+//projects.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diya Trivedi</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        table{
+            position: absolute;
+            top: 50px;
+            color: white;
+            font-size: 25px;
+        }
+        button{
+            padding: 10px;
+            font-size: 20px;
+            background-color: white;
+            position: absolute;
+            float: right;
+            right: 80px;
+            top: 2400px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img src="p.avif" alt="" height="2450px" width="1600px" class="ii">
+    <table border="1">
+        <tr>
+        <th>Serial No.</th>
+        <th>Project image</th>
+        <th>Project description</th>
+        <th>Project title</th>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>1</td>
+        <td>&nbsp;&nbsp;<img src="amazon.png" alt="" height="280px" width="300px">&nbsp;&nbsp;</td>
+        <td><p>The home page of Amazon, build using html and css</p></td>
+        <td><h3>AMAZON FRONT PAGE DESIGN</h3></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>2</td>
+        <td>&nbsp;&nbsp;<img src="calc.png" alt="" height="280px" width="300px">&nbsp;&nbsp;</td>
+        <td><p>A calculator, build using html,css and javascript.</p></td>
+        <td><h3>WORKING CALCULATOR</h3></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>3</td>
+        <td>&nbsp;&nbsp;<img src="curr.png" alt="" height="280px" width="300px">&nbsp;&nbsp;</td>
+        <td><p>A currency convertor webpage, build using html,css and javascript.</p></td>
+        <td><h3>CURRENCY CONVERTER</h3></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>4</td>
+        <td>&nbsp;&nbsp;<img src="netflix.png" alt="" height="280px" width="300px">&nbsp;&nbsp;</td>
+        <td><p>A netflix home page, build using html and css.</p></td>
+        <td><h3>NETFLIX HOME PAGE DESIGN</h3></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>5</td>
+        <td>&nbsp;&nbsp;<img src="Stone.png" alt="" height="280px" width="300px">&nbsp;&nbsp;</td>
+        <td><p>A Stone,Paper, Scissor game with computer, built using html,css and javascript.</p></td>
+        <td><h3>STONE PAPER SCISSOR GAME</h3></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>6</td>
+        <td>&nbsp;&nbsp;<img src="weather.png" alt="" height="280px" width="300px">&nbsp;&nbsp;</td>
+        <td><p>A normal weather website that tells the temperature using API's, build using html,css and javascript.</p></td>
+        <td><h3>WEATHER APP</h3></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>7</td>
+        <td>&nbsp;&nbsp;<img src="zero.png" alt="" height="280px" width="300px">&nbsp;&nbsp;</td>
+        <td><p>A normal tic tac toe fun game allowing 2 players, build using html,css and javascript.</p></td>
+        <td><h3>TIC-TAC-TOE GAME</h3></td>
+    </tr>
+    </table>
+    <a href="portfolio.html"><button>BACK</button></a>
+</body>
+</html>
+//contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diya Trivedi</title>
+    <style>
+        h1,h2{
+            color: white;
+        }
+        h1{
+            position: absolute;
+            top: 70px;
+            left: 600px;
+            font-size: 60px;
+            color: rgb(220, 20, 167);
+        }
+        ul{
+            position: absolute;
+            top: 200px;
+            text-align: justify;
+            color: white;
+        }
+        .d{
+            position: absolute;
+            top: 500px;
+            color: lightpink;
+            font-size: 35px; 
+            -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: pink;
+        }
+        button{
+            padding: 10px;
+            font-size: 20px;
+            background-color: white;
+            position: absolute;
+            float: right;
+            right: 80px;
+            top: 700px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img src="p.avif" alt="" height="800px" width="1600px" class="ii">
+    <h1>CONTACT :-</h1>
+    <ul>
+    <li><h2>PHONE NO. ->  7009535223</h2></li>
+<li><h2>EMAIL ID ->  diya7081.ca23@chitkara.edu.in</h2></li>
+<li><h2>LINKED IN ->  DIYA TRIVEDI</h2></li>
+</ul>
+<marquee behavior="alternate" direction="left" class="d">THANKS  FOR  READING.</marquee>
+<a href="portfolio.html"><button>BACK</button></a>
+</body>
+</html>
